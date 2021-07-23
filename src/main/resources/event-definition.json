@@ -1,0 +1,18 @@
+{
+	"id": "uuid",
+	"header": {
+		"sender": "sender",
+		"version": "1.0"
+	},
+	"event": {
+		"event_id": "event_id",
+		"response_id": "response_id",
+		"type": "demand or response",
+		"result": "ok or fail for response, null for demand"
+	},
+	"body": {
+		"action": "please do something for me",
+		"data":"payload"
+	},
+	"timestamp": "2000-01-01T12:00:00.000+1:00"
+}
