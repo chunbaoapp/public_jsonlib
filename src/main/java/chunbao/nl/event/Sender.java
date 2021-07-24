@@ -7,7 +7,7 @@ import com.fasterxml.jackson.annotation.JsonRootName;
 
 @JsonRootName(value = "sender")
 @JsonPropertyOrder({"name"})
-public class Sender implements BaseJson {
+public class Sender extends BaseJson {
   private String name;
 
   @JsonGetter("name")

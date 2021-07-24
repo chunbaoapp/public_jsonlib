@@ -8,7 +8,7 @@ import com.fasterxml.jackson.annotation.JsonRootName;
 
 @JsonRootName(value = "body")
 @JsonPropertyOrder({"action", "payload"})
-public class Body implements BaseJson {
+public class Body extends BaseJson {
   private Action action;
   @JsonRawValue private String payload;
 

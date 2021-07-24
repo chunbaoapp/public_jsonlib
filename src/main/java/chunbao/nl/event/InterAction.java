@@ -7,7 +7,7 @@ import com.fasterxml.jackson.annotation.JsonRootName;
 
 @JsonRootName(value = "interAction")
 @JsonPropertyOrder({"eventId", "responseId", "type", "result"})
-public class InterAction implements BaseJson {
+public class InterAction extends BaseJson {
   private String eventId;
   private String responseId;
   private String type;

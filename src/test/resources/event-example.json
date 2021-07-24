@@ -6,7 +6,7 @@
     },
     "version": "1.0"
   },
-  "interaction": {
+  "interAction": {
     "eventId": "eventId",
     "responseId": "responseId",
     "type": "demand or response",
