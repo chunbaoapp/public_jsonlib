@@ -8,7 +8,7 @@ import com.fasterxml.jackson.annotation.JsonRootName;
 @JsonRootName(value = "event")
 @JsonPropertyOrder({"id", "header", "interAction", "body", "timestamp"})
 public class Event extends BaseJson {
-  // uuid
+  // format: event_name_timestamp_6random
   private String id;
   private Header header;
   private InterAction interAction;
