@@ -1,4 +1,4 @@
-package chunbao.nl.util;
+package chunbao.nl.event.util;
 
 import org.apache.commons.io.IOUtils;
 

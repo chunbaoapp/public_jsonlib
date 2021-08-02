@@ -1,4 +1,4 @@
-package chunbao.nl.json;
+package chunbao.nl.event.json;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import org.apache.commons.lang3.builder.EqualsBuilder;

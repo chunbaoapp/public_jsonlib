@@ -1,7 +1,7 @@
-package chunbao.nl.json;
+package chunbao.nl.event.json;
 
-import chunbao.nl.event.*;
-import chunbao.nl.util.FileUtil;
+import chunbao.nl.event.event.*;
+import chunbao.nl.event.util.FileUtil;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;
 import org.junit.jupiter.api.Test;

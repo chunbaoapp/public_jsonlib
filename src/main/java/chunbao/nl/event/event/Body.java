@@ -1,6 +1,6 @@
-package chunbao.nl.event;
+package chunbao.nl.event.event;
 
-import chunbao.nl.json.BaseJson;
+import chunbao.nl.event.json.BaseJson;
 import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import com.fasterxml.jackson.annotation.JsonRawValue;
