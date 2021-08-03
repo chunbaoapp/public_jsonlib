@@ -4,11 +4,15 @@ import chunbao.nl.event.json.BaseJson;
 import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import com.fasterxml.jackson.annotation.JsonRootName;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 
 @JsonRootName(value = "event")
 @JsonPropertyOrder({"id", "header", "interAction", "body", "timestamp"})
+@Entity
 public class Event extends BaseJson {
   // format: event_name_timestamp_6random
+  @Id
   private String id;
   private Header header;
   private InterAction interAction;

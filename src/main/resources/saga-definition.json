@@ -1,0 +1,19 @@
+{
+  "name": "SagaName",
+  "version": "SagaVersion",
+  "eventId": "UUID",
+  "current": 1,
+  "direction": "forward or backward",
+  "steps": [
+    {
+      "transaction": {
+        "service": "serviceName",
+        "action": "service action"
+      },
+      "compensation": ""
+    },{
+      "transaction": "",
+      "compensation": ""
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "SagaName",
+  "version": "SagaVersion",
+  "steps": [
+    {
+      "transaction": "",
+      "compensation": ""
+    },{
+      "transaction": "",
+      "compensation": ""
+    }
+  ]
+}
