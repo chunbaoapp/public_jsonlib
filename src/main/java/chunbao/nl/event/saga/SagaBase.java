@@ -1,4 +1,4 @@
-package chunbao.nl.event.module;
+package chunbao.nl.event.saga;
 
 import chunbao.nl.event.json.BaseJson;
 import com.fasterxml.jackson.annotation.JsonGetter;

@@ -1,4 +1,4 @@
-package chunbao.nl.event.module;
+package chunbao.nl.event.user;
 
 import chunbao.nl.event.json.BaseJson;
 import com.fasterxml.jackson.annotation.JsonGetter;
@@ -11,8 +11,7 @@ import javax.persistence.Id;
 @JsonRootName(value = "user")
 @JsonPropertyOrder({"username", "password"})
 public class GuiUser extends BaseJson {
-  @Id
-  String username;
+  @Id String username;
   String password;
 
   public GuiUser() {}

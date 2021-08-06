@@ -1,4 +1,4 @@
-package chunbao.nl.event.module;
+package chunbao.nl.event.saga;
 
 import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
