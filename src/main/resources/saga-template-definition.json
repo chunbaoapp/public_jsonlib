@@ -3,11 +3,16 @@
   "version": "SagaVersion",
   "steps": [
     {
-      "transaction": "",
-      "compensation": ""
-    },{
-      "transaction": "",
-      "compensation": ""
+      "transaction": {
+        "service": "serviceName",
+        "action": "service action",
+        "payload": {}
+      },
+      "compensation": {
+        "service": "serviceName",
+        "action": "service action",
+        "payload": {}
+      }
     }
   ]
 }

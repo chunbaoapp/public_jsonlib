@@ -8,12 +8,14 @@
     {
       "transaction": {
         "service": "serviceName",
-        "action": "service action"
+        "action": "service action",
+        "payload": {}
       },
-      "compensation": ""
-    },{
-      "transaction": "",
-      "compensation": ""
+      "compensation": {
+        "service": "serviceName",
+        "action": "service action",
+        "payload": {}
+      }
     }
   ]
 }
